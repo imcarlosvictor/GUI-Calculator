@@ -55,7 +55,7 @@ def equals():
         display.config(text=total)
 
 
-# Application window 
+# Application window
 root = Tk()
 root.title('Calculator')
 
@@ -76,7 +76,7 @@ display.grid(column=0, row=0)
 equation_display = ttk.Label(screen, text='')
 equation_display.grid(column=0, row=1)
 
-# Keypads 
+# Keypads
 # Numbers
 decimal = ttk.Button(keypad, text='.',
                      command=lambda: button_click('.')).grid(column=1, row=6)
